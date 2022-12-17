@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import About from "./About";
 import Hero from "./Hero";
-
 import Navbar from "./Navbar";
 
 const Main = () => {
@@ -14,6 +14,7 @@ const Main = () => {
 			{/* Main */}
 			<Navbar menuBtn={menuBtn} handleMenu={handleMenu} />
 			<Hero />
+			<About />
 		</div>
 	);
 };
